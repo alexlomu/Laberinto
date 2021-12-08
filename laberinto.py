@@ -5,7 +5,7 @@ mapa_resuelto = [
     " ", "X", " ", "X", "X",
     " ", " ", " ", "X", "X",
 ]
-
+orden_salida = ["ABAJO", "ABAJO", "ABAJO", "ABAJO", "DERECHA", "DERECHA", "ARRIBA", "ARRIBA", "DERECHA", "DERECHA"]
 posicion_x = 0
 posicion_y = 0
 
@@ -65,6 +65,8 @@ def play():
             print(mapa_inicial)
         elif mapa_resuelto[posicion_total] == "S":
             print("Enhorabuena, has conseguido salir del laberinto!")
+            print("El orden de salida era:")
+            print(orden_salida)
             break
         else:
             posicion_x = 0
