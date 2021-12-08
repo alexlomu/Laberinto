@@ -2,7 +2,7 @@
 La dirección de GitHub de este reposoitorio es: [Github](https://github.com/alexlomu/Laberinto)
 https://github.com/alexlomu/Laberinto
 
-Hemos hecho un juego del laberinto en el que el camino esta predefinido y el jugador tendrá que averiguar como salir de él.
+Hemos hecho un juego del laberinto en el que el camino está predefinido y el jugador tendrá que averiguar como salir de él.
 El diagrama de flujo es el siguiente:
 ![figma_laberinto](https://user-images.githubusercontent.com/91721507/145279603-9b53109b-c53b-4fbc-9d90-425bcb8fc924.JPG)
 El código del juego es el siguiente:
